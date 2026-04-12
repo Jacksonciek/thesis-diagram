@@ -105,19 +105,11 @@
         <mxCell id="uuqnuH4RXRAqEy7mZ8Ll-6" parent="uuqnuH4RXRAqEy7mZ8Ll-1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
           <mxGeometry height="80" width="120" x="60" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="uuqnuH4RXRAqEy7mZ8Ll-7" parent="uuqnuH4RXRAqEy7mZ8Ll-1" style="ellipse;whiteSpace=wrap;html=1;" value="Stop" vertex="1">
-          <mxGeometry height="80" width="120" x="340" y="740" as="geometry" />
-        </mxCell>
         <mxCell id="k-D1kRbfBGXCxrz6RYXD-2" edge="1" parent="uuqnuH4RXRAqEy7mZ8Ll-1" source="uuqnuH4RXRAqEy7mZ8Ll-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="k-D1kRbfBGXCxrz6RYXD-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uuqnuH4RXRAqEy7mZ8Ll-16" parent="uuqnuH4RXRAqEy7mZ8Ll-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Mentah" vertex="1">
           <mxGeometry height="60" width="120" x="220" y="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uuqnuH4RXRAqEy7mZ8Ll-25" edge="1" parent="uuqnuH4RXRAqEy7mZ8Ll-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uuqnuH4RXRAqEy7mZ8Ll-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="710" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="k-D1kRbfBGXCxrz6RYXD-4" edge="1" parent="uuqnuH4RXRAqEy7mZ8Ll-1" source="k-D1kRbfBGXCxrz6RYXD-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="k-D1kRbfBGXCxrz6RYXD-3">
           <mxGeometry relative="1" as="geometry" />
