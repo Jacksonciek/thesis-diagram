@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="Pengumpulan" id="tAXaxk83R5U6ZHfza_qN">
     <mxGraphModel dx="1372" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -241,6 +241,29 @@
         </mxCell>
         <mxCell id="fHKifIykLUMF2CHNzXDh-20" parent="fHKifIykLUMF2CHNzXDh-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Evaluasi metrik" vertex="1">
           <mxGeometry height="60" width="140" x="190" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Matematis" id="tYnzbbvPxOzcJ3LYxIQl">
+    <mxGraphModel dx="988" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="zKPpLaLFamryoCotQF_W-0" />
+        <mxCell id="zKPpLaLFamryoCotQF_W-1" parent="zKPpLaLFamryoCotQF_W-0" />
+        <mxCell id="zKPpLaLFamryoCotQF_W-2" edge="1" parent="zKPpLaLFamryoCotQF_W-1" source="zKPpLaLFamryoCotQF_W-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zKPpLaLFamryoCotQF_W-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKPpLaLFamryoCotQF_W-3" parent="zKPpLaLFamryoCotQF_W-1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zKPpLaLFamryoCotQF_W-15" edge="1" parent="zKPpLaLFamryoCotQF_W-1" source="zKPpLaLFamryoCotQF_W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="zKPpLaLFamryoCotQF_W-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zKPpLaLFamryoCotQF_W-16" parent="zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input Dataset" vertex="1">
+          <mxGeometry height="60" width="140" x="190" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zKPpLaLFamryoCotQF_W-18" parent="zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pembangunan Leksikon Diferensial TF-IDF" vertex="1">
+          <mxGeometry height="60" width="145" x="365" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
