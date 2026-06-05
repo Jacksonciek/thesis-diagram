@@ -259,8 +259,8 @@
         <mxCell id="bkX14tGxzCMUlg6iWOZ1-1" edge="1" parent="zKPpLaLFamryoCotQF_W-1" source="zKPpLaLFamryoCotQF_W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bkX14tGxzCMUlg6iWOZ1-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zKPpLaLFamryoCotQF_W-16" parent="zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input Dataset" vertex="1">
-          <mxGeometry height="60" width="140" x="200" y="50" as="geometry" />
+        <mxCell id="zKPpLaLFamryoCotQF_W-16" parent="zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input Dataset bersih&lt;div&gt;setelah&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;preprocessing&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="190" y="50" as="geometry" />
         </mxCell>
         <mxCell id="bkX14tGxzCMUlg6iWOZ1-4" edge="1" parent="zKPpLaLFamryoCotQF_W-1" source="zKPpLaLFamryoCotQF_W-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bkX14tGxzCMUlg6iWOZ1-3">
           <mxGeometry relative="1" as="geometry" />
@@ -463,7 +463,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="TF-IDF" id="FzHrMAJBAf47DvOlCrZH">
+  <diagram name="Simplify" id="FzHrMAJBAf47DvOlCrZH">
     <mxGraphModel dx="1235" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ftWgNExJ9VFDayhVl63D-0" />
