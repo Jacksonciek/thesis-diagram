@@ -682,7 +682,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ApplyMath" id="ApplyMath_PageId_001">
-    <mxGraphModel dx="1317" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1040" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-0" />
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-1" parent="AM_zKPpLaLFamryoCotQF_W-0" />
@@ -690,31 +690,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-3" parent="AM_zKPpLaLFamryoCotQF_W-1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
-          <mxGeometry height="80" width="120" x="40" y="40" as="geometry" />
+          <mxGeometry height="90" width="130" x="30" y="35" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-1" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_zKPpLaLFamryoCotQF_W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-16" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input Dataset bersih&lt;div&gt;setelah&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;preprocessing&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="190" y="50" as="geometry" />
+          <mxGeometry height="80" width="160" x="190" y="40" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-4" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_zKPpLaLFamryoCotQF_W-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-18" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Sublinear TF&lt;/b&gt;&lt;div&gt;$$\text{TF}_{sub}(t,d)=\begin{cases}1+\log(tf(t,d))&amp;amp;\text{jika }tf&amp;gt;0\\0&amp;amp;\text{jika }tf=0\end{cases}$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="230" x="540" y="40" as="geometry" />
+          <mxGeometry height="100" width="310" x="550" y="30" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-2" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_zKPpLaLFamryoCotQF_W-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-0" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Preprocessing TF-IDF" vertex="1">
-          <mxGeometry height="80" width="130" x="370" y="40" as="geometry" />
+          <mxGeometry height="80" width="130" x="380" y="40" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-6" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-3" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung IDF dengan Smoothing&lt;/b&gt;&lt;div&gt;$$\text{IDF}(t)=\log\!\left(\dfrac{N+1}{n_t+1}\right)+1$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="180" x="810" y="40" as="geometry" />
+          <mxGeometry height="90" width="180" x="770" y="240" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-9" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-7">
           <mxGeometry relative="1" as="geometry" />
@@ -871,11 +871,10 @@
             <mxPoint x="690" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-66" parent="AM_zKPpLaLFamryoCotQF_W-1" style="ellipse;whiteSpace=wrap;html=1;" value="Stop" vertex="1">
-          <mxGeometry height="80" width="120" x="1090" y="1000" as="geometry" />
-        </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-71" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-66">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-71" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="1040" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-70" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Output berupa&lt;/div&gt;&lt;div&gt;Prediksi: HATE / NON-HATE per kalimat&lt;/div&gt;&lt;div&gt;Hate Span: daftar kata/frasa toksik yang teridentifikasi&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="240" x="830" y="1010" as="geometry" />
