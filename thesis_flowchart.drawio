@@ -682,21 +682,21 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ApplyMath" id="ApplyMath_PageId_001">
-    <mxGraphModel dx="1887" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2163" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-0" />
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-1" parent="AM_zKPpLaLFamryoCotQF_W-0" />
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-30" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="130" width="815" x="-728" y="1610" as="geometry" />
+        <mxCell id="C8FDI5ozcwqpNzJ44r2u-30" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=17;" value="" vertex="1">
+          <mxGeometry height="163" width="810" x="-740" y="1487" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="297.5" width="815" x="-738" y="1272.5" as="geometry" />
+        <mxCell id="C8FDI5ozcwqpNzJ44r2u-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=23;" value="" vertex="1">
+          <mxGeometry height="187.5" width="808" x="-738" y="1272.5" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-10" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="710" width="815" x="-740" y="550" as="geometry" />
+        <mxCell id="th-bFXFDux1spG7MHO1d-10" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" value="" vertex="1">
+          <mxGeometry height="710" width="808" x="-738" y="550" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-6" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="260" width="815" x="-738" y="270" as="geometry" />
+          <mxGeometry height="260" width="808" x="-738" y="270" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-1" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_zKPpLaLFamryoCotQF_W-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_zKPpLaLFamryoCotQF_W-16">
           <mxGeometry relative="1" as="geometry" />
@@ -801,50 +801,56 @@
           <mxGeometry height="170" width="340" x="-706" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-20" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-28">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-36" y="1230" />
+              <mxPoint x="-36" y="1230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-47" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Linear Warmup Scheduler&lt;/b&gt;&lt;div&gt;$$\eta(t)=\eta_{max}\cdot\dfrac{t}{T_{warm}}\;(t\leq T_{warm})$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="217.5" x="-173.5" y="1100" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-24" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-27">
+        <mxCell id="YA6rALsgYi_tbALFHdsB-3" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-51" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Kalibrasi Threshold Klasifikasi&lt;/b&gt;&lt;div&gt;$$\theta^*=\arg\max_{\theta\in[0,1]}F_1(\theta)$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="250" x="-631" y="1447" as="geometry" />
+          <mxGeometry height="110" width="129" x="-531" y="1319.75" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-32" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-59">
+        <mxCell id="YA6rALsgYi_tbALFHdsB-7" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-55" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span&gt;&lt;span style=&quot;&quot;&gt;Evaluasi Metrik Sentence-Level dan Token-level&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="210" x="-181" y="1650" as="geometry" />
+          <mxGeometry height="82.5" width="210" x="-706" y="1536" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-28" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-61">
+        <mxCell id="YA6rALsgYi_tbALFHdsB-8" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-59" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Harmonic Mean (Metrik Gabungan MTL)&lt;/b&gt;&lt;div&gt;$$\text{HM}=\dfrac{2\cdot F1_{sent}\cdot F1_{span}}{F1_{sent}+F1_{span}}$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="85" width="280" x="-516" y="1647" as="geometry" />
+          <mxGeometry height="83.5" width="297.75" x="-466" y="1535" as="geometry" />
         </mxCell>
-        <mxCell id="YA6rALsgYi_tbALFHdsB-0" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-70">
+        <mxCell id="YA6rALsgYi_tbALFHdsB-9" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-70">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-621" y="1820" />
+              <mxPoint x="-38" y="1670" />
+              <mxPoint x="-368" y="1670" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-61" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Analisis Interpretabilitas LIME (Kualitatif)" vertex="1">
-          <mxGeometry height="70" width="110" x="-676" y="1654.5" as="geometry" />
+          <mxGeometry height="80" width="164" x="-120" y="1536" as="geometry" />
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-27" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C8FDI5ozcwqpNzJ44r2u-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-70" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" value="&lt;div&gt;Output berupa&lt;/div&gt;&lt;div&gt;Prediksi: HATE / NON-HATE per kalimat&lt;/div&gt;&lt;div&gt;Hate Span: Daftar kata / frasa toksik yang teridentifikasi&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="304" x="-528" y="1780" as="geometry" />
+          <mxGeometry height="80" width="304" x="-520.5" y="1700" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-8" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Pembangunan Leksikon Diferensial TF-IDF dan Pelabelan BIO Otomatis&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="500" x="-466" y="280" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-13" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Perancangan Arsitektur dan Konfigurasi Model BLOOM-560M Multi-Task Learning&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="550" x="-516" y="556" as="geometry" />
+          <mxGeometry height="30" width="550" x="-516" y="557" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-21" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-19" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -861,23 +867,20 @@
         <mxCell id="th-bFXFDux1spG7MHO1d-25" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Cross-Entropy Loss (Token Head)&lt;/b&gt;&lt;div&gt;$$\mathcal{L}_{token} = -\dfrac{1}{|V|}\sum_{t \in V} \log P(y_t \mid \mathbf{x})$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="265" x="-496" y="950" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-12" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-27" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Argmax Decoding&amp;nbsp;Urutan BIO&lt;/b&gt;&lt;div&gt;$$\hat{y}_t = \arg\max_{k}\, e_t[k]$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="77" width="240" x="-196" y="1463.5" as="geometry" />
+          <mxGeometry height="108.5" width="136" x="-706" y="1320.5" as="geometry" />
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-21" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-28" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Optuna TPE Hyperparameter Sampling&lt;/b&gt;&lt;div&gt;$$x^* = \arg\max_{x}\, \dfrac{\ell(x)}{g(x)}$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="210" x="-169.75" y="1297" as="geometry" />
+          <mxGeometry height="107" width="160.25" x="-116.25" y="1322.75" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-23" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-51">
+        <mxCell id="YA6rALsgYi_tbALFHdsB-2" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Optuna Objective&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Harmonic Mean Validation)&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$\text{obj}_{Optuna} = \dfrac{2 \cdot F1_{sent}^{val} \cdot F1_{span}^{val}}{F1_{sent}^{val} + F1_{span}^{val}}$$&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="108.5" width="240" x="-626" y="1302.25" as="geometry" />
+          <mxGeometry height="108.5" width="210" x="-360" y="1321.25" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-32" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-7">
           <mxGeometry relative="1" as="geometry" />
@@ -910,13 +913,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-18" parent="AM_zKPpLaLFamryoCotQF_W-1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="Stop" vertex="1">
-          <mxGeometry height="90" width="130" x="-441" y="1900" as="geometry" />
+          <mxGeometry height="90" width="130" x="-433.5" y="1820" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-31" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Optimasi Hyperparameter dengan Kerangka Kerja Optuna&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="411" x="-730" y="1276" as="geometry" />
+        <mxCell id="C8FDI5ozcwqpNzJ44r2u-31" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Optimasi Hyperparameter dengan Kerangka Kerja Optuna&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="411" x="-706" y="1281" as="geometry" />
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-33" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Rancangan Evaluasi&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="200" x="-761" y="1617" as="geometry" />
+          <mxGeometry height="30" width="200" x="-156" y="1497" as="geometry" />
+        </mxCell>
+        <mxCell id="YA6rALsgYi_tbALFHdsB-6" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.325;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
