@@ -682,7 +682,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ApplyMath" id="ApplyMath_PageId_001">
-    <mxGraphModel dx="2257" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2492" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-0" />
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-1" parent="AM_zKPpLaLFamryoCotQF_W-0" />
@@ -800,11 +800,11 @@
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-45" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung AdamW Optimizer&lt;/b&gt;&lt;div&gt;$$m_t=\beta_1 m_{t-1}+(1-\beta_1)g_t,\quad v_t=\beta_2 v_{t-1}+(1-\beta_2)g_t^2$$&lt;/div&gt;&lt;div&gt;$$\hat{m}_t=\dfrac{m_t}{1-\beta_1^t},\quad\hat{v}_t=\dfrac{v_t}{1-\beta_2^t}$$&lt;/div&gt;&lt;div&gt;$$\theta_t=\theta_{t-1}-\eta\!\left(\dfrac{\hat{m}_t}{\sqrt{\hat{v}_t}+\varepsilon_{adam}}+\lambda\theta_{t-1}\right)$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="340" x="-706" y="1060" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-20" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-28">
+        <mxCell id="YA6rALsgYi_tbALFHdsB-10" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-36" y="1230" />
-              <mxPoint x="-36" y="1230" />
+              <mxPoint x="-46" y="1230" />
+              <mxPoint x="-46" y="1230" />
             </Array>
           </mxGeometry>
         </mxCell>
