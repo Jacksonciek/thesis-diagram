@@ -477,8 +477,8 @@
         <mxCell id="ftWgNExJ9VFDayhVl63D-4" edge="1" parent="ftWgNExJ9VFDayhVl63D-1" source="ftWgNExJ9VFDayhVl63D-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ftWgNExJ9VFDayhVl63D-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ftWgNExJ9VFDayhVl63D-5" parent="ftWgNExJ9VFDayhVl63D-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input Dataset" vertex="1">
-          <mxGeometry height="60" width="140" x="200" y="50" as="geometry" />
+        <mxCell id="ftWgNExJ9VFDayhVl63D-5" parent="ftWgNExJ9VFDayhVl63D-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input Dataset bersih&lt;div&gt;setelah&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;preprocessing&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="190" y="50" as="geometry" />
         </mxCell>
         <mxCell id="ftWgNExJ9VFDayhVl63D-6" edge="1" parent="ftWgNExJ9VFDayhVl63D-1" source="ftWgNExJ9VFDayhVl63D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ftWgNExJ9VFDayhVl63D-11">
           <mxGeometry relative="1" as="geometry" />
