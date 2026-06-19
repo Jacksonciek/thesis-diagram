@@ -682,7 +682,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ApplyMath" id="ApplyMath_PageId_001">
-    <mxGraphModel dx="4770" dy="2157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1796" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-0" />
         <mxCell id="AM_zKPpLaLFamryoCotQF_W-1" parent="AM_zKPpLaLFamryoCotQF_W-0" />
@@ -712,49 +712,49 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AM_zKPpLaLFamryoCotQF_W-16" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" value="Input Dataset bersih&lt;div&gt;setelah&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;preprocessing&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_zKPpLaLFamryoCotQF_W-16" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" value="Input cleaned dataset&lt;div&gt;after preprocessing&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="178.5" x="-319.25" y="170" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-4" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_zKPpLaLFamryoCotQF_W-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_zKPpLaLFamryoCotQF_W-18" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Hitung Sublinear Term Frequency (TF)&lt;/strong&gt;&lt;br&gt;&lt;div&gt;$$\text{TF}(t,d)=\begin{cases}1+\log(tf(t,d))&amp;amp;\text{jika }tf&amp;gt;0\\0&amp;amp;\text{jika }tf=0\end{cases}$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_zKPpLaLFamryoCotQF_W-18" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Sublinear Term Frequency (TF)&lt;/b&gt;&lt;br&gt;&lt;div&gt;$$\text{TF}(t,d)=\begin{cases}1+\log(tf(t,d))&amp;amp;\text{if }tf&amp;gt;0\\0&amp;amp;\text{if }tf=0\end{cases}$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="310" x="-546" y="319" as="geometry" />
         </mxCell>
         <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-2" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_zKPpLaLFamryoCotQF_W-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-0" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Inisialisasi Pipeline&lt;/b&gt;&lt;div&gt;&lt;b&gt;TF-IDF&lt;/b&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-0" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;TF-IDF&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Pipeline Initialization&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="130" x="-706" y="319" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-0" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-3" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung IDF dengan Smoothing&lt;/b&gt;&lt;div&gt;$$\text{IDF}(t)=\log\!\left(\dfrac{N+1}{n_t+1}\right)+1$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-3" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate IDF with Smoothing&lt;/b&gt;&lt;br&gt;&lt;div&gt;$$\text{IDF}(t)=\log\!\left(\dfrac{N+1}{n_t+1}\right)+1$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="210" x="-206" y="319" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-5" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Skor TF-IDF Final&lt;/b&gt;&lt;div&gt;$$\text{TF-IDF}(t,d)=\text{TF}(t,d)\times\text{IDF}(t)$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-5" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;Calculate the Final TF-IDF Score&lt;/b&gt;&lt;/div&gt;&lt;div&gt;$$\text{TF-IDF}(t,d)=\text{TF}(t,d)\times\text{IDF}(t)$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="210" x="34" y="319" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-5" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-7" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Seleksi Leksikon Diferensial" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-7" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Differential Lexicon Selection" vertex="1">
           <mxGeometry height="100" width="186" x="-256" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-8" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Pelabelan BIO Otomatis&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;$$l_t = \begin{cases} B\text{-TOX} &amp;amp; \text{jika } t \in \mathcal{L}_{bi,start} \text{ atau } (t \in \mathcal{L}_{uni} \wedge l_{t-1} \notin \{B,I\}) \\ I\text{-TOX} &amp;amp; \text{jika } l_{t-1} \in \{B\text{-TOX},\, I\text{-TOX}\} \\ O &amp;amp; \text{selainnya} \end{cases}$$&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-8" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;Automated BIO Labeling&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;$$l_t = \begin{cases} B\text{-TOX} &amp;amp; \text{if } t \in \mathcal{L}_{bi,start} \text{ or } (t \in \mathcal{L}_{uni} \wedge l_{t-1} \notin \{B,I\}) \\ I\text{-TOX} &amp;amp; \text{if } l_{t-1} \in \{B\text{-TOX},\, I\text{-TOX}\} \\ O &amp;amp; \text{others} \end{cases}$$&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="416" x="-706" y="420" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-11" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-11" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Tokenisasi BPE (BLOOM Tokenizer)&lt;/strong&gt;&lt;br&gt;&lt;div&gt;$$x_{token}=\text{BPE}(x_{raw})$$&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-11" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;BPE Tokenization (BLOOM Tokenizer)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;$$x_{token}=\text{BPE}(x_{raw})$$&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="93" width="236" x="-706" y="635" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-12" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-15" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Query, Key, Value&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Proyeksi Linear Q, K, V)&lt;/b&gt;&lt;div&gt;$$\mathbf{Q}_i=\mathbf{X}\mathbf{W}^Q_i,\;\mathbf{K}_i=\mathbf{X}\mathbf{W}^K_i,\;\mathbf{V}_i=\mathbf{X}\mathbf{W}^V_i$$&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-15" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Query, Key, and Value&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Linear Projection Q, K, V)&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;$$\mathbf{Q}_i=\mathbf{X}\mathbf{W}^Q_i,\;\mathbf{K}_i=\mathbf{X}\mathbf{W}^K_i,\;\mathbf{V}_i=\mathbf{X}\mathbf{W}^V_i$$&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="93" width="295" x="-406" y="635" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-4" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-19">
@@ -766,73 +766,73 @@
         <mxCell id="th-bFXFDux1spG7MHO1d-15" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-19" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Multi-Head Attention&lt;/b&gt;&lt;div&gt;$$\text{MultiHead}=\text{Concat}(\text{head}_1,\ldots,\text{head}_h)\mathbf{W}^O$$&lt;/div&gt;&lt;div&gt;$$\text{head}_i=\text{Attn}(\mathbf{Q}_i,\mathbf{K}_i,\mathbf{V}_i)$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-19" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Multi-Head Attention&lt;/b&gt;&lt;div&gt;$$\text{MultiHead}=\text{Concat}(\text{head}_1,\ldots,\text{head}_h)\mathbf{W}^O$$&lt;/div&gt;&lt;div&gt;$$\text{head}_i=\text{Attn}(\mathbf{Q}_i,\mathbf{K}_i,\mathbf{V}_i)$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="294" x="-50" y="750" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-17" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-21" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Feed-Forward Network (GeLU)&lt;/b&gt;&lt;div&gt;$$\text{FFN}(\mathbf{x})=\text{GeLU}(\mathbf{x}\mathbf{W}_1+\mathbf{b}_1)\mathbf{W}_2+\mathbf{b}_2$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-21" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Feed-Forward Network (GeLU)&lt;/b&gt;&lt;div&gt;$$\text{FFN}(\mathbf{x})=\text{GeLU}(\mathbf{x}\mathbf{W}_1+\mathbf{b}_1)\mathbf{W}_2+\mathbf{b}_2$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="249" x="-330" y="750" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-5" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-23" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Masked Mean Pooling (Sentence Head)&lt;/b&gt;&lt;div&gt;$$\mathbf{p}=\text{Dropout}\!\left(\dfrac{\sum_i\mathbf{h}_i\cdot m_i}{\sum_i m_i+\varepsilon}\right)$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="180" x="-536" y="750" as="geometry" />
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-23" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Masked Mean Pooling (Sentence Head)&lt;/b&gt;&lt;div&gt;$$\mathbf{p}=\text{Dropout}\!\left(\dfrac{\sum_i\mathbf{h}_i\cdot m_i}{\sum_i m_i+\varepsilon}\right)$$&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="-530" y="750" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-10" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-24" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Proyeksi Klasifikasi Kalimat (Linear Head)&lt;/b&gt;&lt;div&gt;$$\mathbf{z}=\mathbf{p}\mathbf{W}_{sent}+\mathbf{b}_{sent}$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="146" x="-706" y="750" as="geometry" />
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-24" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Sentence Classification Projection (Linear Head)&lt;/b&gt;&lt;br&gt;&lt;div&gt;$$\mathbf{z}=\mathbf{p}\mathbf{W}_{sent}+\mathbf{b}_{sent}$$&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="156" x="-706" y="750" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-12" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-27" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;&lt;/b&gt;&lt;strong&gt;Probabilitas Kelas Kalimat (Softmax)&lt;/strong&gt;&lt;div&gt;$$P(y=k\mid\mathbf{x})=\dfrac{e^{z_k}}{\sum_j e^{z_j}}$$&lt;/div&gt;" vertex="1">
-          <mxGeometry height="88" width="146" x="-706" y="862" as="geometry" />
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-27" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Sentence Class Probability (Softmax)&lt;/b&gt;&lt;br&gt;&lt;div&gt;$$P(y=k\mid\mathbf{x})=\dfrac{e^{z_k}}{\sum_j e^{z_j}}$$&lt;/div&gt;" vertex="1">
+          <mxGeometry height="88" width="156" x="-706" y="862" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-14" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Proyeksi Logit Token BIO (Token Head)&lt;/b&gt;&lt;div&gt;$$\mathbf{e}_t=\text{Dropout}(\mathbf{h}_t)\mathbf{W}_{token}+\mathbf{b}_{token}$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate BIO Token Logit Projection (Token Head)&lt;/b&gt;&lt;br&gt;&lt;div&gt;$$\mathbf{e}_t=\text{Dropout}(\mathbf{h}_t)\mathbf{W}_{token}+\mathbf{b}_{token}$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="88" width="226" x="-214" y="862" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-16" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-40" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Kombinasi Loss MTL&lt;/b&gt;&lt;div&gt;$$\mathcal{L}_{total}=\alpha\cdot\mathcal{L}_{sent}+\beta\cdot\mathcal{L}_{CRF}$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-40" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;Calculate MTL Loss Combination&lt;/b&gt;&lt;/div&gt;&lt;div&gt;$$\mathcal{L}_{total}=\alpha\cdot\mathcal{L}_{sent}+\beta\cdot\mathcal{L}_{CRF}$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="89" width="194" x="50" y="971" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-18" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-45" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Pembaruan Parameter AdamW&amp;nbsp;Optimizer&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$\theta_t=\theta_{t-1}-\eta\!\left(\dfrac{\hat{m}_t}{\sqrt{\hat{v}_t}+\varepsilon_{adam}}+\lambda\theta_{t-1}\right)$$&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-45" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate AdamW Optimizer Parameter Updates&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$\theta_t=\theta_{t-1}-\eta\!\left(\dfrac{\hat{m}_t}{\sqrt{\hat{v}_t}+\varepsilon_{adam}}+\lambda\theta_{t-1}\right)$$&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="89" width="340" x="-376" y="971" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-22" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-47" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Linear Warmup Scheduler&lt;/b&gt;&lt;div&gt;$$\eta(t)=\eta_{max}\cdot\dfrac{t}{T_{warm}}\;(t\leq T_{warm})$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-47" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Linear Warmup Scheduler&lt;/b&gt;&lt;div&gt;$$\eta(t)=\eta_{max}\cdot\dfrac{t}{T_{warm}}\;(t\leq T_{warm})$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="217.5" x="-706" y="970" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-21" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-51" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Kalibrasi Threshold Klasifikasi&lt;/b&gt;&lt;div&gt;$$\theta^*=\arg\max_{\theta\in[0,1]}F_1(\theta)$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-51" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;Classification Threshold Calibration&lt;/b&gt;&lt;/div&gt;&lt;div&gt;$$\theta^*=\arg\max_{\theta\in[0,1]}F_1(\theta)$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="195" x="-214" y="1175.75" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-25" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-55" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span&gt;&lt;span style=&quot;&quot;&gt;Evaluasi Metrik Sentence-Level dan Token-level&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-55" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;span&gt;Sentence-Level and Token-Level Metric Evaluation&lt;/span&gt;" vertex="1">
           <mxGeometry height="82.5" width="224" x="20" y="1409" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-26" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-59" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung Harmonic Mean (Metrik Gabungan MTL)&lt;/b&gt;&lt;div&gt;$$\text{HM}=\dfrac{2\cdot F1_{sent}\cdot F1_{span}}{F1_{sent}+F1_{span}}$$&lt;/div&gt;" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-59" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;Calculate Harmonic Mean (MTL Combined Metric)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;$$\text{HM}=\dfrac{2\cdot F1_{sent}\cdot F1_{span}}{F1_{sent}+F1_{span}}$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="83.5" width="348.75" x="-384.75" y="1409" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-27" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-70">
@@ -843,64 +843,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-61" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="Analisis Interpretabilitas LIME (Kualitatif)" vertex="1">
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-61" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" value="LIME Interpretability Analysis (Qualitative)" vertex="1">
           <mxGeometry height="85" width="256" x="-706" y="1409" as="geometry" />
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-27" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C8FDI5ozcwqpNzJ44r2u-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-70" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" value="&lt;div&gt;Output berupa&lt;/div&gt;&lt;div&gt;Prediksi: HATE / NON-HATE per kalimat&lt;/div&gt;&lt;div&gt;Hate Span: Daftar kata / frasa toksik yang teridentifikasi&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="304" x="-382" y="1560" as="geometry" />
+        <mxCell id="AM_bkX14tGxzCMUlg6iWOZ1-70" parent="AM_zKPpLaLFamryoCotQF_W-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" value="&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;Prediction: HATE / NON-HATE per sentence&lt;/div&gt;&lt;div&gt;Hate Span: List of identified toxic words/phrases&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="322" x="-391.5" y="1560" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-8" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Pembangunan Leksikon Diferensial TF-IDF dan Pelabelan BIO Otomatis&lt;/b&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-8" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;TF-IDF Differential Lexicon Construction and Automated BIO Labeling&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="500" x="-256" y="279" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-13" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Perancangan Arsitektur dan Konfigurasi Model BLOOM-560M Multi-Task Learning&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="550" x="-306" y="594" as="geometry" />
+        <mxCell id="th-bFXFDux1spG7MHO1d-13" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Architecture Design and Configuration of BLOOM-560M Multi-Task Learning Model&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="564" x="-320" y="594" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-13" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-24" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Cross-Entropy Loss (Sentence Head)&lt;/b&gt;&lt;div&gt;$$\mathcal{L}_{sent} = -\sum_{k \in \{0,1\}} \mathbf{1}[k = y_{true}] \log P(y=k \mid \mathbf{x})$$&lt;/div&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-24" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Cross-Entropy Loss (Sentence Head)&lt;/b&gt;&lt;div&gt;$$\mathcal{L}_{sent} = -\sum_{k \in \{0,1\}} \mathbf{1}[k = y_{true}] \log P(y=k \mid \mathbf{x})$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="87" width="276" x="-520" y="862" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-15" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-25" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Cross-Entropy Loss (Token Head)&lt;/b&gt;&lt;div&gt;$$\mathcal{L}_{token} = -\dfrac{1}{|V|}\sum_{t \in V} \log P(y_t \mid \mathbf{x})$$&lt;/div&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-25" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Cross-Entropy Loss (Token Head)&lt;/b&gt;&lt;div&gt;$$\mathcal{L}_{token} = -\dfrac{1}{|V|}\sum_{t \in V} \log P(y_t \mid \mathbf{x})$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="88" width="194" x="50" y="862" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-24" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-27" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Argmax Decoding&amp;nbsp;Urutan BIO&lt;/b&gt;&lt;div&gt;$$\hat{y}_t = \arg\max_{k}\, e_t[k]$$&lt;/div&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-27" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;Calculate Argmax Decoding BIO Sequence&lt;/b&gt;&lt;/div&gt;&lt;div&gt;$$\hat{y}_t = \arg\max_{k}\, e_t[k]$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="108.5" width="224" x="20" y="1177.25" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-19" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="th-bFXFDux1spG7MHO1d-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-28" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Optuna TPE Hyperparameter Sampling&lt;/b&gt;&lt;div&gt;$$x^* = \arg\max_{x}\, \dfrac{\ell(x)}{g(x)}$$&lt;/div&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-28" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Optuna TPE Hyperparameter Sampling&lt;/b&gt;&lt;div&gt;$$x^* = \arg\max_{x}\, \dfrac{\ell(x)}{g(x)}$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="107" width="216" x="-706" y="1178" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-20" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;Optuna Objective&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Harmonic Mean Validation)&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$\text{obj}_{Optuna} = \dfrac{2 \cdot F1_{sent}^{val} \cdot F1_{span}^{val}}{F1_{sent}^{val} + F1_{span}^{val}}$$&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-29" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate Optuna Objective&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Harmonic Mean Validation)&lt;/b&gt;&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$\text{obj}_{Optuna} = \dfrac{2 \cdot F1_{sent}^{val} \cdot F1_{span}^{val}}{F1_{sent}^{val} + F1_{span}^{val}}$$&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="108.5" width="210" x="-462" y="1176.5" as="geometry" />
         </mxCell>
         <mxCell id="th-bFXFDux1spG7MHO1d-32" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="th-bFXFDux1spG7MHO1d-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="AM_bkX14tGxzCMUlg6iWOZ1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="th-bFXFDux1spG7MHO1d-30" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Hitung&amp;nbsp;&lt;/b&gt;&lt;strong&gt;Differential Score&lt;/strong&gt;&lt;div&gt;$$\Delta(t) = \overline{\text{TF-IDF}}_{hate}(t) - \overline{\text{TF-IDF}}_{non\text{-}hate}(t)$$&lt;/div&gt;" vertex="1">
+        <mxCell id="th-bFXFDux1spG7MHO1d-30" parent="AM_zKPpLaLFamryoCotQF_W-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Calculate&amp;nbsp;&lt;/b&gt;&lt;strong&gt;Differential Score&lt;/strong&gt;&lt;div&gt;$$\Delta(t) = \overline{\text{TF-IDF}}_{hate}(t) - \overline{\text{TF-IDF}}_{non\text{-}hate}(t)$$&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="280" x="-36" y="420" as="geometry" />
         </mxCell>
         <mxCell id="C8FDI5ozcwqpNzJ44r2u-18" parent="AM_zKPpLaLFamryoCotQF_W-1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="Stop" vertex="1">
           <mxGeometry height="90" width="130" x="-295" y="1680" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-31" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Optimasi Hyperparameter dengan Kerangka Kerja Optuna&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="411" x="-167" y="1139" as="geometry" />
+        <mxCell id="C8FDI5ozcwqpNzJ44r2u-31" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Hyperparameter Optimization with the Optuna Framework&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="411" x="-167" y="1138" as="geometry" />
         </mxCell>
-        <mxCell id="C8FDI5ozcwqpNzJ44r2u-33" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Rancangan Evaluasi&lt;/b&gt;" vertex="1">
+        <mxCell id="C8FDI5ozcwqpNzJ44r2u-33" parent="AM_zKPpLaLFamryoCotQF_W-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;Evaluation Plan&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="200" x="-706" y="1369" as="geometry" />
         </mxCell>
         <mxCell id="CByosrL35W2HGfmaSJBd-3" edge="1" parent="AM_zKPpLaLFamryoCotQF_W-1" source="AM_bkX14tGxzCMUlg6iWOZ1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="th-bFXFDux1spG7MHO1d-30">
