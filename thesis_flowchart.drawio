@@ -7,7 +7,7 @@
         <mxCell id="i6aIgQM09jvNtuT37u58-17" edge="1" parent="1" source="2Ndjo0mzy2O03_BBUhZA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i6aIgQM09jvNtuT37u58-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2Ndjo0mzy2O03_BBUhZA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pencarian Data" vertex="1">
+        <mxCell id="2Ndjo0mzy2O03_BBUhZA-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search for data" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="160" as="geometry" />
         </mxCell>
         <mxCell id="i6aIgQM09jvNtuT37u58-15" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2Ndjo0mzy2O03_BBUhZA-2">
@@ -38,34 +38,34 @@
         <mxCell id="i6aIgQM09jvNtuT37u58-19" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i6aIgQM09jvNtuT37u58-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6aIgQM09jvNtuT37u58-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Masuk ke situs web&lt;div&gt;Hugging Face&lt;/div&gt;" vertex="1">
+        <mxCell id="i6aIgQM09jvNtuT37u58-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Access Hugging Face platform" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="i6aIgQM09jvNtuT37u58-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mencari dataset Bahasa Indonesia" vertex="1">
+        <mxCell id="i6aIgQM09jvNtuT37u58-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search Indonesian dataset" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="360" as="geometry" />
         </mxCell>
         <mxCell id="AlzjkoO-_xOutREDq-pQ-8" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AlzjkoO-_xOutREDq-pQ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6aIgQM09jvNtuT37u58-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mencari dataset Bahasa Inggris" vertex="1">
+        <mxCell id="i6aIgQM09jvNtuT37u58-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Search English&lt;div&gt;dataset&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="320" y="360" as="geometry" />
         </mxCell>
         <mxCell id="i6aIgQM09jvNtuT37u58-14" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i6aIgQM09jvNtuT37u58-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6aIgQM09jvNtuT37u58-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Menyiapkan system prompt" vertex="1">
+        <mxCell id="i6aIgQM09jvNtuT37u58-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Prepare system prompt for LLM data generation" vertex="1">
           <mxGeometry height="60" width="120" x="480" y="160" as="geometry" />
         </mxCell>
         <mxCell id="i6aIgQM09jvNtuT37u58-25" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i6aIgQM09jvNtuT37u58-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6aIgQM09jvNtuT37u58-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Menyiapkan platform generasi data melalui Claude Sonnet 4.6" vertex="1">
+        <mxCell id="i6aIgQM09jvNtuT37u58-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Set up data generation platform via Claude Sonnet 4.6" vertex="1">
           <mxGeometry height="60" width="120" x="480" y="260" as="geometry" />
         </mxCell>
         <mxCell id="AlzjkoO-_xOutREDq-pQ-14" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AlzjkoO-_xOutREDq-pQ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i6aIgQM09jvNtuT37u58-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Generasi data dan pelabelan via LLM + system prompt" vertex="1">
+        <mxCell id="i6aIgQM09jvNtuT37u58-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Generate data &amp;amp; labeling via LLM + system prompt" vertex="1">
           <mxGeometry height="60" width="120" x="480" y="360" as="geometry" />
         </mxCell>
         <mxCell id="AlzjkoO-_xOutREDq-pQ-5" edge="1" parent="1" source="i6aIgQM09jvNtuT37u58-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8mC4_seXH0Odu20N8AW5-1" value="">
@@ -83,7 +83,7 @@
             <mxPoint x="380" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8mC4_seXH0Odu20N8AW5-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Mengumpulkan dataset Bahasa Indonesia" vertex="1">
+        <mxCell id="8mC4_seXH0Odu20N8AW5-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Collect Indonesian&lt;div&gt;dataset&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="140" y="470" as="geometry" />
         </mxCell>
         <mxCell id="AlzjkoO-_xOutREDq-pQ-12" edge="1" parent="1" source="AlzjkoO-_xOutREDq-pQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
@@ -91,7 +91,7 @@
             <mxPoint x="380" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AlzjkoO-_xOutREDq-pQ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Mengumpulkan dataset Bahasa Inggris" vertex="1">
+        <mxCell id="AlzjkoO-_xOutREDq-pQ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Collect English&lt;div&gt;dataset&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="300" y="470" as="geometry" />
         </mxCell>
         <mxCell id="AlzjkoO-_xOutREDq-pQ-13" edge="1" parent="1" source="AlzjkoO-_xOutREDq-pQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
@@ -103,7 +103,7 @@
             <mxPoint x="380" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AlzjkoO-_xOutREDq-pQ-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Mengumpulkan dataset Code-mixed" vertex="1">
+        <mxCell id="AlzjkoO-_xOutREDq-pQ-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Collect code-mixed&lt;div&gt;dataset&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="460" y="470" as="geometry" />
         </mxCell>
       </root>
