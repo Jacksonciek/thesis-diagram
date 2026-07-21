@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="6">
+<mxfile host="app.diagrams.net" pages="7">
   <diagram name="Pengumpulan" id="tAXaxk83R5U6ZHfza_qN">
     <mxGraphModel dx="1372" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -911,6 +911,83 @@
             <mxPoint x="-470" y="630" as="sourcePoint" />
             <mxPoint x="-420" y="580" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TPyf0lUQZuar910vRduN" name="Page-7">
+    <mxGraphModel dx="1372" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-8" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="66.67" width="100" x="90" y="46.66" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-10" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Pre-processing" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-6" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Collection" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-13" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data Partitioning" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="49.989999999999995" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-20" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Construction of TF-IDF Differential Lexicon" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-21" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Automated BIO Labeling" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-22" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scenario of Baseline 1&#39;s Model Training" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-18" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scenario of Baseline 2&#39;s Model Training" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-23" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hyperparameter Tuning using Optuna" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-25" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Scenario of Main Model Training" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-27" edge="1" parent="1" source="aVGcwQjDk4fA3GMoTkut-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aVGcwQjDk4fA3GMoTkut-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Evaluation" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aVGcwQjDk4fA3GMoTkut-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Stop" vertex="1">
+          <mxGeometry height="66.67" width="100" x="570" y="226.67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
